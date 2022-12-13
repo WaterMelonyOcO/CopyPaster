@@ -1,11 +1,19 @@
-package copyPaster;
 
+import additions.pasterCreate;
 
 class main{
 
     public static void main(String[] args) {
      
-        System.err.println( new pasterCreate() );
 
+        // for( int i = 0; i < 10; i++ ){
+        //     pasterCreate emoj = new pasterCreate();
+        //     System.err.print( emoj.getEmoji() );
+        // }
+        pasterCreate emoj = new pasterCreate();
+            
+        for ( int i = 0 ; i <= 10; i++ ){
+            System.out.println( emoj.getEmoji() );
+        }
     }
 }
