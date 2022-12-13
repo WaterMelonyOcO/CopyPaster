@@ -5,12 +5,13 @@ public class ChoserForElements {
 
     private Randomizers rand = new Randomizers();
     
-    protected char[][] partChoiser(char[][] hands, char[][] eyes, char[][] mouths){
-        char[][] result = new char[3][];
+    protected char[][] partChoiser(char[][] hands, char[][] eyes, char[][] mouths, char[][] shell){
+        char[][] result = new char[4][];
 
         result[0] = Choiser(hands);
         result[1] = Choiser(eyes);
         result[2] = Choiser(mouths);  
+        result[3] = Choiser(shell);
 
         return result;
     }

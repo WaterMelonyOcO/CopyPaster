@@ -11,9 +11,9 @@ class main{
         //     System.err.print( emoj.getEmoji() );
         // }
         pasterCreate emoj = new pasterCreate();
-            
-        for ( int i = 0 ; i <= 10; i++ ){
-            System.out.println( emoj.getEmoji() );
-        }
+        System.out.println(emoj.getEmoji()); 
+        // for ( int i = 0 ; i <= 10; i++ ){
+        //     System.out.println( emoj.getEmoji() );
+        // }
     }
 }
