@@ -2,12 +2,11 @@ package additions;
 
 public class pasterCreate {
 
-    private Randomizers rand = new Randomizers();
     private ChoserForElements choose = new ChoserForElements();
 
     private char[][] hands = {{'\\', '/'}, {'╚', '╗'}, {'➘', '➚'},{'~', '-','°','°','\\', '/','╚', '╗','➘', '➚'}};
     private char[][] eyes = {{'♢', '♦'},{'⤚', '⤙'},{'>','<'},{'^', '*','%','@','!','.', '♡',':', '₱', '°', '°', '\''}};
-    private char[][] mouths = {{'_', '؂', '≭', '︹', 'ㅅ'}};
+    private char[][] mouths = {{'_', '≭'}};//'︹', 'ㅅ','؂'
     // private char[] addSymbol = {'✝', '♭', '♫'};
     private char[][] someShell = {{'(',')'},{'{','}'},{'|'}};
 
@@ -27,7 +26,7 @@ public class pasterCreate {
 
         String result = "";
 
-                 //левая рука  //оболочкаЛ   //глазЛ        //рот         //глазР       //оболочкаР   //рукаР
+        //левая рука  //оболочкаЛ   //глазЛ        //рот         //глазР       //оболочкаР   //рукаР
         result += parts[0][0];
         result += parts[3][0];
         result += parts[1][0];
